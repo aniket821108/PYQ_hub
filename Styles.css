@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fc0022;
+    padding: 20px;
+    color: #fff;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.institute-info h1 {
+    font-size: 24px;
+}
+
+.institute-info h2 {
+    font-size: 18px;
+}
+
+.institute-info p {
+    font-size: 14px;
+}
+
+.right-container .flag {
+    width: 150px;
+    height: auto;
+}
+
+nav {
+    background-color: #002a5a;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 15px 10px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #004080;
+}
